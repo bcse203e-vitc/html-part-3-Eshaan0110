@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Schedule Table</title>
+</head>
+<body>
+    <h1>Airline Flight Schedule</h1>
+    <table border="1" cellspacing="0" cellpadding="6">
+        <caption><strong>Flight Schedule</strong></caption>
+        <thead>
+            <tr>
+                <th>Flight Number</th>
+                <th>Destination</th>
+                <th>Departure Time</th>
+                <th>Arrival Time</th>
+                <th>Duration</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AI101</td>
+                <td>Mumbai</td>
+                <td>07:45</td>
+                <td>09:55</td>
+                <td><abbr title="2 hours 10 minutes">2h 10m</abbr></td>
+                <td>On Time</td>
+            </tr>
+            <tr bgcolor="#D6EAF8">
+                <td>AI202</td>
+                <td>London</td>
+                <td>10:25</td>
+                <td>15:15</td>
+                <td><abbr title="9 hours 20 minutes">9h 20m</abbr></td>
+                <td>Delayed</td>
+            </tr>
+            <tr>
+                <td>AI303</td>
+                <td>Delhi</td>
+                <td>12:00</td>
+                <td>13:30</td>
+                <td><abbr title="1 hour 30 minutes">1h 30m</abbr></td>
+                <td>On Time</td>
+            </tr>
+            <tr bgcolor="#D6EAF8">
+                <td>AI404</td>
+                <td>New York</td>
+                <td>15:30</td>
+                <td>23:59</td>
+                <td><abbr title="16 hours 29 minutes">16h 29m</abbr></td>
+                <td>Cancelled</td>
+            </tr>
+            <tr>
+                <td>AI505</td>
+                <td>Bengaluru</td>
+                <td>18:45</td>
+                <td>20:15</td>
+                <td><abbr title="1 hour 30 minutes">1h 30m</abbr></td>
+                <td>On Time</td>
+            </tr>
+            <tr bgcolor="#D6EAF8">
+                <td>AI606</td>
+                <td>Singapore</td>
+                <td>22:00</td>
+                <td>04:35</td>
+                <td><abbr title="5 hours 5 minutes">5h 5m</abbr></td>
+                <td>On Time</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6" align="right"><strong>Total Flights: 6</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        <strong>Legend:</strong>
+        <span style="background-color:#D6EAF8; padding:0 10px;"></span> International Flight
+        <br>
+        <abbr title="Duration Information">Hover</abbr> over duration for full details
+    </p>
+</body>
+</html>
